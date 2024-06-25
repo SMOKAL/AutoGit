@@ -18,13 +18,7 @@ Rule1Businessdata as
 /** Rule End :Rule1Businessdata     **/
 ,
 
-/** Rule Start :Rule5OrderCompletion     **/    
-Rule5OrderCompletion as
- (Select distinct o.orderid,o.orderstatus,u.uid
- from order o join
-      uname u
- on orderid=u.uid)
-/** Rule End :Rule5OrderCompletion     **/
+/** Rule Start :Rule5OrderCompletion     **/ SHREYA MOKAL /** Rule End :Rule5OrderCompletion     **/
 
 
 ,
