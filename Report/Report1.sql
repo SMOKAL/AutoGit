@@ -10,7 +10,7 @@ Employee_CTE (EmployeeNumber, Title) AS (
     FROM HumanResources.Employee
 ),
 
-/** Rule Start :Rule5OrderCompletion     **/ SHREYA MOKAL /** Rule End :Rule5OrderCompletion     **/
+/** Rule Start :Rule5OrderCompletion     **/ Your new content goes here /** Rule End :Rule5OrderCompletion     **/
 
 ,
 
