@@ -19,12 +19,18 @@ Rule4HomeAddress as
 #RuleEnd:Rule4HomeAddress#
 
 ,
-#RuleStart:Rule1Businessdata#    
+#RuleStart:Rule1Businessdata#   
 Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
  from profile p join
       data d
- on p.id=d.contactid)
+ on p.id=d.contactid)This area the new changes
+
+
+
+
+
+
 #RuleEnd:Rule1Businessdata#
 ,
 Sales_CTE AS (
