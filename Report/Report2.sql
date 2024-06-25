@@ -9,13 +9,13 @@ WITH RecursiveEmployeeHierarchy AS (
     FROM Employees E
     INNER JOIN RecursiveEmployeeHierarchy REH ON E.ManagerID = REH.EmployeeID
 ),
-/** Rule Start :Rule1Businessdata      **/    
+#RuleStart:Rule1Businessdata#    
 Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
  from profile p join
       data d
  on p.id=d.contactid)
-/** Rule End :Rule1Businessdata     **/
+#RuleEnd:Rule1Businessdata#
 ,
 
 /** Rule Start :Rule5OrderCompletion     **/    
