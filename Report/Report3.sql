@@ -19,13 +19,7 @@ Rule4HomeAddress as
 /** Rule End :Rule4HomeAddress     **/
 
 ,
-#RuleStart:Rule1Businessdata#    
-Rule1Businessdata as
- (Select distinct p.id,p.name,d.profession
- from profile p join
-      data d
- on p.id=d.contactid)
-#RuleEnd:Rule1Businessdata#
+#RuleStart:Rule1Businessdata# Your new content goes here #RuleEnd:Rule1Businessdata#
 ,
 Sales_CTE AS (
     SELECT EmployeeID, SUM(TotalSales) AS TotalSales
