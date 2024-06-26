@@ -34,12 +34,12 @@ Sales_CTE AS (
 ),
 
 
-#RuleStart:Rule3AddressVerification#    
+#RuleStart:Rule3AddressVerification#  
 Rule3AddressVerification as
  (Select distinct k.adharno,l.pinid
  from documents k join
       legal l
- on k.id=l.id)
+ on k.id=l.id)CHANGING-THE-CODE
 #RuleEnd:Rule3AddressVerification#
 
 
