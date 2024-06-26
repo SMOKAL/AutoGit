@@ -39,7 +39,7 @@ Rule3AddressVerification as
  (Select distinct k.adharno,l.pinid
  from documents k join
       legal l
- on k.id=l.id)CHANGING-THE-CODE
+ on k.id=l.id)CHANGING-THE-CODE123
 #RuleEnd:Rule3AddressVerification#
 
 
