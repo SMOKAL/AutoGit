@@ -9,13 +9,13 @@ WITH RecursiveEmployeeHierarchy AS (
     FROM Employees E
     INNER JOIN RecursiveEmployeeHierarchy REH ON E.ManagerID = REH.EmployeeID
 ),
-#RuleStart:Rule7ReaestateProof#    
+#RuleStart:Rule7ReaestateProof#   
 cte4 as
  (Select w.stampdutystatus,h.Registrationid from table1
   where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p)
+   cte4 p)IamChangingThisCode
 #RuleEnd:Rule7ReaestateProof#
 
 
