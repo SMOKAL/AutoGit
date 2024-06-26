@@ -40,7 +40,7 @@ cte1 as
   where v.status='Married'),
 Rule6ValidationProof as 
   (Select s.id,s.name,c.validationid from soap s join
-   cte1 c)Changedoinginthecode12340
+   cte1 c)Changedoinginthecode1SHREYA
 #RuleEnd:Rule6ValidationProof#
 
 
