@@ -39,7 +39,7 @@ ftable on e.id = f.id)This is the CICDTestingShreya
 Rule10BcgCheck as
  (Select b.marks,b.id,b.name,r.policestatus,r.validityid
 from bcg b join check r
-where b.maritialstatus = 'Single')CICDTAKE10
+where b.maritialstatus = 'Single')CICD-SHREYA
 
 #RuleEnd:Rule10BcgCheck#
 
