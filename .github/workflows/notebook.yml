@@ -23,11 +23,11 @@ jobs:
           pip install jupyter nbconvert
           
       - name: Create Output directory
-        run: mkdir -p Output
+        run: mkdir -p $GITHUB_WORKSPACE/Output
 
       - name: Execute Jupyter notebook
         run: |
-          jupyter nbconvert --to notebook --execute Scripts/CICD.ipynb --output Output/CICD.ipynb 
+          jupyter nbconvert --to notebook --execute Scripts/CICD.ipynb --output $GITHUB_WORKSPACE/Output/CICD.ipynb 
 
       
         env:
