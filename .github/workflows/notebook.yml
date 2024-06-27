@@ -24,7 +24,7 @@ jobs:
 
       - name: Execute Jupyter notebook
         run: |
-          jupyter nbconvert --to notebook --execute Scripts/CICD.ipynb 
+          jupyter nbconvert --to notebook --execute Scripts/CICD.ipynb --output Output/CICD.ipynb 
 
       
         env:
