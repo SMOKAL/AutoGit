@@ -15,7 +15,7 @@ Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
       address a
- on h.plotid=a.id)Iam Changing Thecode hope it reflectsevrywhere
+ on h.plotid=a.id)CICDTestingWithDifferentOp
 #RuleEnd:Rule4HomeAddress#
 
 ,
