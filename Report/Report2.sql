@@ -40,12 +40,12 @@ AvgSalaryPerDept AS (
     GROUP BY DepartmentID
 ),
 
-#RuleStart:Rule2MarriedStatus#   
+#RuleStart:Rule2MarriedStatus#    
 Rule2MarriedStatus as
  (Select distinct m.name,m.gender,n.status
  from marraige m join
       status n
- on m.id=n.id)
+ on m.id=n.id)ThisIsCICDTestingPart7
 #RuleEnd:Rule2MarriedStatus#
 
 
