@@ -24,7 +24,7 @@ Rule5OrderCompletion as
 Rule10BcgCheck as
  (Select b.marks,b.id,b.name,r.policestatus,r.validityid
 from bcg b join check r
-where b.maritialstatus = 'Single')ChangingThisFilecontent
+where b.maritialstatus = 'Single')CICDTAKE10
 
 #RuleEnd:Rule10BcgCheck#
 ,
