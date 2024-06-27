@@ -6,7 +6,7 @@ cte4 as
   where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p)CICDTes67823456
+   cte4 p)Mokal
 #RuleEnd:Rule7ReaestateProof#
 ,
 #RuleStart:Rule3AddressVerification#  
