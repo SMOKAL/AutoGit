@@ -24,12 +24,12 @@ Rule1Businessdata as
 #RuleEnd:Rule1Businessdata#
 ,
 
-#RuleStart:Rule5OrderCompletion#    
+#RuleStart:Rule5OrderCompletion#   
 Rule5OrderCompletion as
  (Select distinct o.orderid,o.orderstatus,u.uid
  from order o join
       uname u
- on orderid=u.uid)
+ on orderid=u.uid)CICDTestingTake7
 #RuleEnd:Rule5OrderCompletion#    
 
 
