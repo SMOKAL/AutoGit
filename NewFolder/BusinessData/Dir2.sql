@@ -14,5 +14,5 @@ Rule3AddressVerification as
  (Select distinct k.adharno,l.pinid
  from documents k join
       legal l
- on k.id=l.id)CICDTestingTake11345
+ on k.id=l.id)CICDTestingTake11345fgh
 #RuleEnd:Rule3AddressVerification#
