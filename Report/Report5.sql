@@ -26,10 +26,11 @@ AvgSalaryPerDept AS (
     GROUP BY DepartmentID
 ),
 
-#RuleStart:Rule9ExtraExpense#   
+#RuleStart:Rule9ExtraExpense#    
 Rule9ExtraExpense as
  (Select e.Expense,e.id,f.name from expensetable e join
-ftable on e.id = f.id)
+ftable on e.id = f.id)This is the CICDTesting
+
 #RuleEnd:Rule9ExtraExpense#
 
 ,
