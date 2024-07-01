@@ -2,7 +2,7 @@ WITH RecursiveEmployeeHierarchy AS (
     SELECT EmployeeID, EmployeeName, ManagerID, 1 AS Level
     FROM Employees
     WHERE ManagerID IS NULL  -- Start with top-level managers (those without a manager)
-
+    shreya123
     UNION ALL
 
     SELECT E.EmployeeID, E.EmployeeName, E.ManagerID, REH.Level + 1
@@ -12,7 +12,7 @@ WITH RecursiveEmployeeHierarchy AS (
 #RuleStart:Rule7ReaestateProof#   
 cte4 as
  (Select w.stampdutystatus,h.Registrationid from table1
-  where w.status='Married'),
+  where w.status='Married')Amlan123,
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
    cte4 p)Mokal568mmdhajaj123567
@@ -23,13 +23,13 @@ Rule7ReaestateProof as
 AvgSalaryPerDept AS (
     SELECT DepartmentID, AVG(Salary) AS AvgSalary
     FROM Employees
-    GROUP BY DepartmentID
+    GROUP BY DepartmentID Shreya123
 ),
 
 #RuleStart:Rule9ExtraExpense#    
 Rule9ExtraExpense as
  (Select e.Expense,e.id,f.name from expensetable e join
-ftable on e.id = f.id)This is the CICDTestingShreya123abcdefhhhhhh
+ftable on e.id = f.id)This is the CICDTestingShreya123abcdefhhhhhhAmlan123
 
 #RuleEnd:Rule9ExtraExpense#
 
