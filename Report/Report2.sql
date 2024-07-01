@@ -12,10 +12,9 @@ WITH RecursiveEmployeeHierarchy AS (
 #RuleStart:Rule1Businessdata#   
 Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
- 
-    from profile p join
+ from profile p join
       data d
- on p.id=d.contactid)Final
+ on p.id=d.contactid)Final12
 
 
 
