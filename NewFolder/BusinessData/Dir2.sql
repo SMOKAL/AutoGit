@@ -3,10 +3,10 @@ with
 #RuleStart:Rule7ReaestateProof#   
 cte4 as
  (Select w.stampdutystatus,h.Registrationid from table1
-  where w.status='Married')Change1,
+  where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p)Mokal568mmdhajaj123567
+   cte4 p)
 #RuleEnd:Rule7ReaestateProof#
 ,
 #RuleStart:Rule3AddressVerification#  
