@@ -15,7 +15,7 @@ Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
       address a and 
-    Address bCHANGE
+    Address bCHANGE1233
  on h.plotid=a.id)OutDirisAdded678dfg345
 #RuleEnd:Rule4HomeAddress#
 
