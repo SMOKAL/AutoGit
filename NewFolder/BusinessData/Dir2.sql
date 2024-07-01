@@ -3,7 +3,7 @@ with
 #RuleStart:Rule7ReaestateProof#   
 cte4 as
  (Select w.stampdutystatus,h.Registrationid from table1
-  where w.status='Married'),
+  where w.status='Married')Change1,
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
    cte4 p)Mokal568mmdhajaj123567
@@ -14,5 +14,5 @@ Rule3AddressVerification as
  (Select distinct k.adharno,l.pinid
  from documents k join
       legal l
- on k.id=l.id)CICDTestingTake11345f
+ on k.id=l.id)CICDTestingTake11345fChange2
 #RuleEnd:Rule3AddressVerification#
