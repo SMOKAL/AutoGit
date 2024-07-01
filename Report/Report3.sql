@@ -14,7 +14,8 @@ Employee_CTE (EmployeeNumber, Title) AS (
 Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
-      address a and Address bCHANGE
+      address a and 
+    Address bCHANGE
  on h.plotid=a.id)OutDirisAdded678dfg345
 #RuleEnd:Rule4HomeAddress#
 
