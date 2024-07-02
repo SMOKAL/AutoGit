@@ -18,7 +18,8 @@ Employee_CTE (EmployeeNumber, Title) AS (
 #RuleEnd:Rule4HomeAddress#
 
 ,
-#RuleStart:Rule1Businessdata#Rule1Businessdata as
+#RuleStart:Rule1Businessdata#
+Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
  from profile p join
       data d
