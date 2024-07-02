@@ -30,7 +30,6 @@ AvgSalaryPerDept AS (
 Rule9ExtraExpense as
  (Select e.Expense,e.id,f.name from expensetable e join
 ftable on e.id = f.id)
-
 #RuleEnd:Rule9ExtraExpense#
 
 ,
@@ -40,8 +39,6 @@ Rule10BcgCheck as
  (Select b.marks,b.id,b.name,r.policestatus,r.validityid
 from bcg b join check r
 where b.maritialstatus = 'Single')
-
-
 #RuleEnd:Rule10BcgCheck#
 
 
