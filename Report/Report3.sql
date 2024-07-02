@@ -19,8 +19,7 @@ Rule4HomeAddress as
 #RuleEnd:Rule4HomeAddress#
 
 ,
-#RuleStart:Rule1Businessdata#   
-Rule1Businessdata as
+#RuleStart:Rule1Businessdata#Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
  from profile p join
       data d
