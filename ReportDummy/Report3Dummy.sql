@@ -25,15 +25,6 @@ Rule1Businessdata as
  from profile p join
       data d
  on p.id=d.contactid)12345 
-
-
-
-
-
-
-
-
-
 #RuleEnd:Rule1Businessdata#
 ,
 Sales_CTE AS (
