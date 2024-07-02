@@ -1,4 +1,3 @@
-    
 Rule2MarriedStatus as
  (Select distinct m.name,m.gender,n.status
  from marraige m join
