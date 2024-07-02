@@ -4,3 +4,4 @@ Rule10BcgCheck as
 from bcg b join check r
 where b.maritialstatus = 'Single')12
 
+
