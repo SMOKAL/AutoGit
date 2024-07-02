@@ -29,7 +29,7 @@ Rule5OrderCompletion as
  (Select distinct o.orderid,o.orderstatus,u.uid
  from order o join
       uname u
- on orderid=u.uid)CICDTesting2345
+ on orderid=u.uid)CICDTesting234556
 #RuleEnd:Rule5OrderCompletion#    
 
 
