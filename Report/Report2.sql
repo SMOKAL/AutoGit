@@ -27,8 +27,7 @@ Rule1Businessdata as
 #RuleEnd:Rule1Businessdata#
 ,
 
-#RuleStart:Rule5OrderCompletion#   
-Rule5OrderCompletion as
+#RuleStart:Rule5OrderCompletion#Rule5OrderCompletion as
  (Select distinct o.orderid,o.orderstatus,u.uid
  from order o join
       uname u
