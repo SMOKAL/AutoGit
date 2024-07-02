@@ -10,7 +10,8 @@ Employee_CTE (EmployeeNumber, Title) AS (
     FROM HumanResources.Employee
 ),
 
-#RuleStart:Rule4HomeAddress#Rule4HomeAddress as
+#RuleStart:Rule4HomeAddress#
+Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
       address a
