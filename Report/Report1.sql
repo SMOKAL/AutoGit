@@ -7,7 +7,7 @@ WITH avg_students AS (
 
 Employee_CTE (EmployeeNumber, Title) AS (
     SELECT NationalIDNumber, JobTitle
-    FROM HumanResources.Employee
+    FROM HumanResources.Employee123
 ),
 
 #RuleStart:Rule5OrderCompletion#Rule5OrderCompletion as
