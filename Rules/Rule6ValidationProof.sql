@@ -1,4 +1,3 @@
-   
 cte1 as
  (Select v.validationid,b.time from table1
   where v.status='Married'),
