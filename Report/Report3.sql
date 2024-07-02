@@ -31,6 +31,7 @@ Rule1Businessdata as
 
 
 
+
 #RuleEnd:Rule1Businessdata#
 ,
 Sales_CTE AS (
