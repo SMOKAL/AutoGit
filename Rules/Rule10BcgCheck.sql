@@ -5,3 +5,4 @@ from bcg b join check r
 where b.maritialstatus = 'Single')
 
 
+
