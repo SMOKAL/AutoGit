@@ -5,3 +5,4 @@ cte4 as
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
    cte4 p) 
+
