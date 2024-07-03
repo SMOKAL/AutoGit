@@ -4,3 +4,4 @@
 Rule6ValidationProof as 
   (Select s.id,s.name,c.validationid from soap s join
    cte1 c)
+ 
