@@ -24,7 +24,7 @@ Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
  from profile p join
       data d
- on p.id=d.contactid)12345vch 
+ on p.id=d.contactid)12345 
 
 
 
@@ -34,7 +34,7 @@ Rule1Businessdata as
 
 
 
- #RuleEnd:Rule1Businessdata#
+  #RuleEnd:Rule1Businessdata#
 ,
 Sales_CTE AS (
     SELECT EmployeeID, SUM(TotalSales) AS TotalSales
