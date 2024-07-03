@@ -32,8 +32,8 @@ Rule5OrderCompletion as
  (Select distinct o.orderid,o.orderstatus,u.uid
  from order o join
       uname u
- on orderid=u.uid)ShreyaMokal123
-#RuleEnd:Rule5OrderCompletion#    
+ on orderid=u.uid)
+  #RuleEnd:Rule5OrderCompletion#    
 
 
 ,
