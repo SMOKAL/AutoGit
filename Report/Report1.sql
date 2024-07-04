@@ -24,9 +24,11 @@ Rule5OrderCompletion as
 Rule10BcgCheck as
  (Select b.marks,b.id,b.name,r.policestatus,r.validityid
 from bcg b join check r
-where b.maritialstatus = 'Single')
+where b.maritialstatus = 'Single')123
 
 
+
+ 
 #RuleEnd:Rule10BcgCheck#
 ,
 Sales_CTE AS (
