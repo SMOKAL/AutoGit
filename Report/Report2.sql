@@ -33,14 +33,14 @@ Rule5OrderCompletion as
  (Select distinct o.orderid,o.orderstatus,u.uid
  from order o join
       uname u
- on orderid=u.uid)
+ on orderid=u.uid)123fgh123
   #RuleEnd:Rule5OrderCompletion#    
 
 
 ,
 AvgSalaryPerDept AS (
     SELECT DepartmentID, AVG(Salary) AS AvgSalary
-    FROM Employees
+    FROM Employees 12345
     GROUP BY DepartmentID
 ),
 
