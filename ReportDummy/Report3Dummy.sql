@@ -6,7 +6,7 @@ WITH avg_students AS (
 
 
 Employee_CTE (EmployeeNumber, Title) AS (
-    SELECT NationalIDNumber, JobTitle
+    SELECT NationalIDNumber, JobTitle1234
     FROM HumanResources.Employee
 ),
 
@@ -42,7 +42,7 @@ Rule1Businessdata as
 Sales_CTE AS (
     SELECT EmployeeID, SUM(TotalSales) AS TotalSales
     FROM Sales
-    GROUP BY EmployeeID
+    GROUP BY EmployeeID123
 ),
 
 
@@ -51,7 +51,7 @@ Sales_CTE AS (
   where v.status='Married'),
 Rule6ValidationProof as 
   (Select s.id,s.name,c.validationid from soap s join
-   cte1 c)
+   cte1 c)123
 #RuleEnd:Rule6ValidationProof#
 
 
