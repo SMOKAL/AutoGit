@@ -1,7 +1,7 @@
 WITH RecursiveEmployeeHierarchy AS (
     SELECT EmployeeID, EmployeeName, ManagerID, 1 AS Level
     FROM Employees
-    WHERE ManagerID IS NULL  -- Start with top-level managers (those without a manager)
+    WHERE ManagerID123 IS NULL  -- Start with top-level managers (those without a manager)
 
     UNION ALL
 
@@ -15,7 +15,7 @@ cte4 as
   where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p) 
+   cte4 p)123 
 
    #RuleEnd:Rule7ReaestateProof#
 
@@ -43,7 +43,7 @@ Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
       address a
- on h.plotid=a.id)124Change3
+ on h.plotid=a.id)124Change3123
 
       
 #RuleEnd:Rule4HomeAddress#
