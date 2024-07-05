@@ -15,7 +15,7 @@ cte4 as
   where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p)123fghyui 
+   cte4 p)123fgh345 
 
    
 #RuleEnd:Rule7ReaestateProof#
@@ -33,7 +33,7 @@ Sister as
  (Select y.name,y.id,k.Sibling from ytable y join
 ktable on y.id = k.id),
 Rule8SibblingData as 
-  (Select s.name,s.sibling from Sister s where s.id in ('123','567','678')) 
+  (Select s.name,s.sibling from Sister s where s.id in ('121','567','678')) 
  
 #RuleEnd:Rule8SibblingData#
 
