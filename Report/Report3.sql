@@ -51,7 +51,8 @@ Sales_CTE AS (
   where v.status='Married'),
 Rule6ValidationProof as 
   (Select s.id,s.name,c.validationid from soap s join
-   cte1 c)
+   cte1 c)123456789
+ 
 #RuleEnd:Rule6ValidationProof#
 
 
