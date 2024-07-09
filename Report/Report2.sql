@@ -48,7 +48,7 @@ AvgSalaryPerDept AS (
  (Select distinct m.name,m.gender,n.status
  from marraige m join
       status n
- on m.id=n.id)123  
+ on m.id=n.id) 
 
 
  
