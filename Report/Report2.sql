@@ -14,17 +14,7 @@ Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
  from profile p join
       data d
- on p.id=d.contactid)Change2345
-
-
-
-
-
-
-
-
-
-    
+ on p.id=d.contactid)Change2345 
 #RuleEnd:Rule1Businessdata#
 ,
 
@@ -49,9 +39,6 @@ AvgSalaryPerDept AS (
  from marraige m join
       status n
  on m.id=n.id) 
-
-
- 
 #RuleEnd:Rule2MarriedStatus#
 
 
