@@ -14,17 +14,7 @@ Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
  from profile p join
       data d
- on p.id=d.contactid)123
-
-
-
-
-
-
-
-
-
-    
+ on p.id=d.contactid)1236
 #RuleEnd:Rule1Businessdata#
 ,
 
