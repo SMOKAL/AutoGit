@@ -31,7 +31,10 @@ AvgSalaryPerDept AS (
 #RuleStart:Rule9ExtraExpense#    
 Rule9ExtraExpense as
  (Select e.Expense,e.id,f.name from expensetable e join
-ftable on e.id = f.id)
+ftable on e.id = f.id)1234 
+
+
+  
 #RuleEnd:Rule9ExtraExpense#
 
 ,
