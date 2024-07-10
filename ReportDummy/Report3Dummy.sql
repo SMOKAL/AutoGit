@@ -26,7 +26,7 @@ Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
  from profile p join
       data d
- on p.id=d.contactid)
+ on p.id=d.contactid)1234
 #RuleEnd:Rule1Businessdata#
 ,
 Sales_CTE AS (
