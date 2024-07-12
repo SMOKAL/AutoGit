@@ -38,17 +38,23 @@ Sales_CTE AS (
     GROUP BY EmployeeID
 ),
 
-
+*********1
 #RuleStart:Rule3AddressVerification#  
 Rule3AddressVerification as
  (Select distinct k.adharno,l.pinid
  from documents k join
       legal l
- on k.id=l.id)
-
- 
+ on k.id=l.id)12
 #RuleEnd:Rule3AddressVerification#
 
+*********2
+#RuleStart:Rule3AddressVerification#  
+Rule3AddressVerification as
+ (Select distinct k.adharno,l.pinid
+ from documents k join
+      legal l
+ on k.id=l.id)1234
+#RuleEnd:Rule3AddressVerification#
 
 
 Select * from avg_students 
