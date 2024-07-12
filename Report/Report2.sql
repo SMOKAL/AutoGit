@@ -34,12 +34,29 @@ AvgSalaryPerDept AS (
     FROM Employees 12345
     GROUP BY DepartmentID
 ),
+*****1
+#RuleStart:Rule2MarriedStatus#Rule2MarriedStatus as
+ (Select distinct m.name,m.gender,n.status
+ from marraige m join
+      status n
+ on m.id=n.id)12 
+#RuleEnd:Rule2MarriedStatus#
 
+*****2
 #RuleStart:Rule2MarriedStatus#Rule2MarriedStatus as
  (Select distinct m.name,m.gender,n.status
  from marraige m join
       status n
  on m.id=n.id) 
+#RuleEnd:Rule2MarriedStatus#
+
+*****3
+
+#RuleStart:Rule2MarriedStatus#Rule2MarriedStatus as
+ (Select distinct m.name,m.gender,n.status
+ from marraige m join
+      status n
+ on m.id=n.id)12 
 #RuleEnd:Rule2MarriedStatus#
 
 
