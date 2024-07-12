@@ -16,7 +16,8 @@ Rule5OrderCompletion as
  from order o join
       uname u
  on orderid=u.uid)
-  #RuleEnd:Rule5OrderCompletion#
+  
+#RuleEnd:Rule5OrderCompletion#
 
 ,
 
