@@ -11,12 +11,37 @@ Rule7ReaestateProof as
    
 #RuleEnd:Rule7ReaestateProof#
 ,
+
+ ******1
+#RuleStart:Rule3AddressVerification#  
+Rule3AddressVerification as
+ (Select distinct k.adharno,l.pinid
+ from documents k join
+      legal l
+ on k.id=l.id)567
+
+ 
+#RuleEnd:Rule3AddressVerification#
+
+
+******2
 #RuleStart:Rule3AddressVerification#  
 Rule3AddressVerification as
  (Select distinct k.adharno,l.pinid
  from documents k join
       legal l
  on k.id=l.id)
+
+ 
+#RuleEnd:Rule3AddressVerification#
+
+******3
+#RuleStart:Rule3AddressVerification#  
+Rule3AddressVerification as
+ (Select distinct k.adharno,l.pinid
+ from documents k join
+      legal l
+ on k.id=l.id)890
 
  
 #RuleEnd:Rule3AddressVerification#
