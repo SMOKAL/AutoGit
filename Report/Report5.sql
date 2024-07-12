@@ -15,7 +15,7 @@ cte4 as
   where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p)123567
+   cte4 p)1sh7
 
    
 #RuleEnd:Rule7ReaestateProof#
