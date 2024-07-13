@@ -15,9 +15,7 @@ cte4 as
   where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p)123567
-
-   
+   cte4 p)123567  
 #RuleEnd:Rule7ReaestateProof#
 
 
@@ -34,7 +32,6 @@ Sister as
 ktable on y.id = k.id),
 Rule8SibblingData as 
   (Select s.name,s.sibling from Sister s where s.id in ('000','567','678')) 
- 
 #RuleEnd:Rule8SibblingData#
 
 ,
@@ -44,9 +41,7 @@ Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
       address a
- on h.plotid=a.id)
-
-      
+ on h.plotid=a.id)      
 #RuleEnd:Rule4HomeAddress#
 
 
