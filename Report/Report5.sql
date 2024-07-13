@@ -15,9 +15,7 @@ cte4 as
   where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p)1sh7
-
-   
+   cte4 p)1sh7 
 #RuleEnd:Rule7ReaestateProof#
 
 
@@ -44,10 +42,6 @@ Rule10BcgCheck as
  (Select b.marks,b.id,b.name,r.policestatus,r.validityid
 from bcg b join check r
 where b.maritialstatus = 'Single')
-
-
-
- 
 #RuleEnd:Rule10BcgCheck#
 
 
