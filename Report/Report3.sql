@@ -15,9 +15,7 @@ Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
       address a
- on h.plotid=a.id)aa
-
-      
+ on h.plotid=a.id)aa     
 #RuleEnd:Rule4HomeAddress#
 
 ,
@@ -27,9 +25,7 @@ Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
       address a
- on h.plotid=a.id)
-
-      
+ on h.plotid=a.id)     
 #RuleEnd:Rule4HomeAddress#
 
 ********3
@@ -38,9 +34,7 @@ Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
       address a
- on h.plotid=a.id)cc
-
-      
+ on h.plotid=a.id)cc      
 #RuleEnd:Rule4HomeAddress#
     
 #RuleStart:Rule1Businessdata#
@@ -64,7 +58,6 @@ Sales_CTE AS (
 Rule6ValidationProof as 
   (Select s.id,s.name,c.validationid from soap s join
    cte1 c)123456789a
-
 #RuleEnd:Rule6ValidationProof#
 
 *****2    
@@ -74,7 +67,6 @@ Rule6ValidationProof as
 Rule6ValidationProof as 
   (Select s.id,s.name,c.validationid from soap s join
    cte1 c)123456789b
- 
 #RuleEnd:Rule6ValidationProof#
 
 ******3    
@@ -84,7 +76,6 @@ Rule6ValidationProof as
 Rule6ValidationProof as 
   (Select s.id,s.name,c.validationid from soap s join
    cte1 c)123456789c
- 
 #RuleEnd:Rule6ValidationProof#
 
 Select * from avg_students 
