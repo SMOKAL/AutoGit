@@ -15,9 +15,7 @@ cte4 as
   where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p)123567
-
-   
+   cte4 p)123567   
 #RuleEnd:Rule7ReaestateProof#
 
 
@@ -31,10 +29,7 @@ AvgSalaryPerDept AS (
 #RuleStart:Rule9ExtraExpense#    
 Rule9ExtraExpense as
  (Select e.Expense,e.id,f.name from expensetable e join
-ftable on e.id = f.id)1234 
-
-
-  
+ftable on e.id = f.id)1234  
 #RuleEnd:Rule9ExtraExpense#
 
 ,
@@ -44,10 +39,6 @@ Rule10BcgCheck as
  (Select b.marks,b.id,b.name,r.policestatus,r.validityid
 from bcg b join check r
 where b.maritialstatus = 'Single')
-
-
-
- 
 #RuleEnd:Rule10BcgCheck#
 
 
