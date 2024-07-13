@@ -6,9 +6,7 @@ cte4 as
   where w.status='Married'),
 Rule7ReaestateProof as 
   (Select t.id,t.pandate,p.Registrationid from tea t join
-   cte4 p)123567
-
-   
+   cte4 p)123567  
 #RuleEnd:Rule7ReaestateProof#
 ,
 
@@ -19,8 +17,6 @@ Rule3AddressVerification as
  from documents k join
       legal l
  on k.id=l.id)567
-
- 
 #RuleEnd:Rule3AddressVerification#
 
 
@@ -30,9 +26,7 @@ Rule3AddressVerification as
  (Select distinct k.adharno,l.pinid
  from documents k join
       legal l
- on k.id=l.id)
-
- 
+ on k.id=l.id) 
 #RuleEnd:Rule3AddressVerification#
 
 ******3
@@ -42,6 +36,4 @@ Rule3AddressVerification as
  from documents k join
       legal l
  on k.id=l.id)890
-
- 
 #RuleEnd:Rule3AddressVerification#
