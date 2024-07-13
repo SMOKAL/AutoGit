@@ -35,7 +35,8 @@ AvgSalaryPerDept AS (
     GROUP BY DepartmentID
 ),
 *****1
-#RuleStart:Rule2MarriedStatus#Rule2MarriedStatus as
+#RuleStart:Rule2MarriedStatus#
+Rule2MarriedStatus as
  (Select distinct m.name,m.gender,n.status
  from marraige m join
       status n
@@ -44,7 +45,7 @@ AvgSalaryPerDept AS (
 
 *****2
 #RuleStart:Rule2MarriedStatus#
-    Rule2MarriedStatus as
+Rule2MarriedStatus as
  (Select distinct m.name,m.gender,n.status
  from marraige m join
       status n
@@ -53,7 +54,8 @@ AvgSalaryPerDept AS (
 
 *****3
 
-#RuleStart:Rule2MarriedStatus#Rule2MarriedStatus as
+#RuleStart:Rule2MarriedStatus#
+Rule2MarriedStatus as
  (Select distinct m.name,m.gender,n.status
  from marraige m join
       status n
