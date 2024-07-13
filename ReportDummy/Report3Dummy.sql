@@ -15,9 +15,7 @@ Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
  from home h join
       address a
- on h.plotid=a.id)
-
-      
+ on h.plotid=a.id)      
 #RuleEnd:Rule4HomeAddress#
 
 ,
@@ -42,7 +40,6 @@ Sales_CTE AS (
 Rule6ValidationProof as 
   (Select s.id,s.name,c.validationid from soap s join
    cte1 c)123456789
- 
 #RuleEnd:Rule6ValidationProof#
 
 
