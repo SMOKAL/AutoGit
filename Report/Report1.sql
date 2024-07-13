@@ -15,8 +15,7 @@ Rule5OrderCompletion as
  (Select distinct o.orderid,o.orderstatus,u.uid
  from order o join
       uname u
- on orderid=u.uid)
-  
+ on orderid=u.uid)  
 #RuleEnd:Rule5OrderCompletion#
 
 ,
@@ -26,10 +25,6 @@ Rule10BcgCheck as
  (Select b.marks,b.id,b.name,r.policestatus,r.validityid
 from bcg b join check r
 where b.maritialstatus = 'Single')
-
-
-
- 
 #RuleEnd:Rule10BcgCheck#
 ,
 Sales_CTE AS (
