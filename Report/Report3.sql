@@ -9,7 +9,19 @@ Employee_CTE (EmployeeNumber, Title) AS (
     SELECT NationalIDNumber, JobTitle
     FROM HumanResources.Employee123
 ),
+*******1
+#RuleStart:Rule4HomeAddress#
+Rule4HomeAddress as
+ (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
+ from home h join
+      address a
+ on h.plotid=a.id)aa
 
+      
+#RuleEnd:Rule4HomeAddress#
+
+,
+*******2   
 #RuleStart:Rule4HomeAddress#
 Rule4HomeAddress as
  (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
@@ -20,7 +32,17 @@ Rule4HomeAddress as
       
 #RuleEnd:Rule4HomeAddress#
 
-,
+********3
+#RuleStart:Rule4HomeAddress#
+Rule4HomeAddress as
+ (Select distinct h.plotid,h.sectorid,a.homeowner,a.id
+ from home h join
+      address a
+ on h.plotid=a.id)cc
+
+      
+#RuleEnd:Rule4HomeAddress#
+    
 #RuleStart:Rule1Businessdata#
 Rule1Businessdata as
  (Select distinct p.id,p.name,d.profession
