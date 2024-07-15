@@ -41,26 +41,10 @@ Sales_CTE AS (
   where v.status='Married'),
 Rule6ValidationProof as 
   (Select s.id,s.name,c.validationid from soap s join
-   cte1 c)123456789a
+   cte1 c)123456789
 #RuleEnd:Rule6ValidationProof#
 
-*****2    
-#RuleStart:Rule6ValidationProof# cte1 as
- (Select v.validationid,b.time from table1
-  where v.status='Married'),
-Rule6ValidationProof as 
-  (Select s.id,s.name,c.validationid from soap s join
-   cte1 c)123456789b
-#RuleEnd:Rule6ValidationProof#
 
-******3    
-#RuleStart:Rule6ValidationProof# cte1 as
- (Select v.validationid,b.time from table1
-  where v.status='Married'),
-Rule6ValidationProof as 
-  (Select s.id,s.name,c.validationid from soap s join
-   cte1 c)123456789c
-#RuleEnd:Rule6ValidationProof#
 
 Select * from avg_students 
 Union
