@@ -9,6 +9,15 @@ WITH RecursiveEmployeeHierarchy AS (
     FROM Employees E
     INNER JOIN RecursiveEmployeeHierarchy REH ON E.ManagerID = REH.EmployeeID
 ),
+#RuleStart:Rule10BcgCheck#  
+Rule10BcgCheck as
+ (Select b.marks,b.id,b.name,r.policestatus,r.validityid
+from bcg b join check r
+where b.maritialstatus = 'Single')
+#RuleEnd:Rule10BcgCheck#
+
+
+    
 #RuleStart:Rule7ReaestateProof#   
 cte4 as
  (Select w.stampdutystatus,h.Registrationid from table1
