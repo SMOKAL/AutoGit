@@ -51,6 +51,12 @@ Rule3AddressVerification as
  on k.id=l.id)1234
 #RuleEnd:Rule3AddressVerification#
 
+#RuleStart:Rule10BcgCheck#  
+Rule10BcgCheck as
+ (Select b.marks,b.id,b.name,r.policestatus,r.validityid
+from bcg b join check r
+where b.maritialstatus = 'Single')
+#RuleEnd:Rule10BcgCheck#
 
 Select * from avg_students 
 Union
