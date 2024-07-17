@@ -10,6 +10,13 @@ Employee_CTE (EmployeeNumber, Title) AS (
     FROM HumanResources.Employee123
 ),
 
+#RuleStart:Rule10BcgCheck#  
+Rule10BcgCheck as
+ (Select b.marks,b.id,b.name,r.policestatus,r.validityid
+from bcg b join check r
+where b.maritialstatus = 'Single1')
+#RuleEnd:Rule10BcgCheck#
+
 #RuleStart:Rule5OrderCompletion#
 Rule5OrderCompletion as
  (Select distinct o.orderid,o.orderstatus,u.uid
