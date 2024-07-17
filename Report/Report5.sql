@@ -48,6 +48,9 @@ Rule10BcgCheck as
  (Select b.marks,b.id,b.name,r.policestatus,r.validityid
 from bcg b join check r
 where b.maritialstatus = 'Single')
+    123
+    123456
+    1234567
 #RuleEnd:Rule10BcgCheck#
 
 
